@@ -1,0 +1,49 @@
+@import "../base/variables";
+/*----HEADER----*/
+header{
+    .headermq{
+        display: flex;
+        background-color: rgb(91, 114, 91);
+        top: 0;
+        width: 100%;
+        align-items: center;
+        justify-content: space-between;
+        text-decoration: none;
+        margin-bottom: 10px;
+        padding-left: 15px;
+        flex-wrap: wrap;
+        box-shadow: 10px 10px 17px 0px rgba(0,0,0,0.75);
+        -webkit-caja-sombra: 10px 10px 17px 0px rgba(0,0,0,0.75);
+        -moz-caja-sombra: 10px 10px 17px 0px rgba(0,0,0,0.75);
+    }
+    img{
+        width: 100px;
+        height: 100px;
+        box-shadow: 10px 10px 17px 0px rgba(0,0,0,0.75);
+        -webkit-caja-sombra: 10px 10px 17px 0px rgba(0,0,0,0.75);
+        -moz-caja-sombra: 10px 10px 17px 0px rgba(0,0,0,0.75);
+        &:hover{
+            transform: scale(1.3);
+            transition-duration: 3s;
+            }
+        }
+    nav{
+        ul{
+            display: flex;
+            list-style: none;
+            li{
+                margin: 20px;
+                a{
+                    text-decoration: none;
+                    color: black;
+                    font-size: 20px;
+                    transition: 1s ease-in;
+                    &:hover{
+                        color: #7893a7;
+                        }
+                    }
+
+                }
+            }
+        }
+}

@@ -1,0 +1,106 @@
+@import "../base/variables";
+/*----MAIN INDEX----*/
+.hero{
+    width: 100%;
+    height: auto;
+    background-color: rgb(223, 223, 216);
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5px;
+    margin: 10px 10px 5px 10px;
+    box-shadow: 10px 10px 17px 0px rgba(0,0,0,0.75);
+    -webkit-caja-sombra: 10px 10px 17px 0px rgba(0,0,0,0.75);
+    -moz-caja-sombra: 10px 10px 17px 0px rgba(0,0,0,0.75);
+    h2{
+        color:black;
+        font-size: 35px;
+        font-family: 'Trispace', sans-serif;
+        font-weight:400;
+        font-style: italic ; 
+        padding-top: 10px;  
+        padding-bottom: 10px;
+        &:hover{
+            transform: scale(1.3);
+            transition-duration: 3s;
+            font-size: 45px;
+        }   
+    }
+    p{
+        color:black;
+        font-size: 20px;
+        font-style: oblique;
+        margin-top: 20px;
+        margin-right: 300px;
+        margin-left: 300px;
+        margin-bottom: 20px;
+        &:hover{
+            transform: scale(1.3);
+            transition-duration: 3s;
+            font-style: italic;
+        }
+    }
+
+}
+
+.grid-contenedor{
+    width:100%;
+    display: grid;
+    grid-template-rows: 470px 470px 470px;
+    grid-template-columns: 1fr 1fr;
+    background-color: rgb(223, 223, 216);
+    justify-items: center;
+    align-items: center;  
+    justify-content: center;
+    align-content: center;
+    padding-bottom: 5px;
+    gap:10px;
+    box-shadow: 10px 10px 17px 0px rgba(0,0,0,0.75);
+    -webkit-caja-sombra: 10px 10px 17px 0px rgba(0,0,0,0.75);
+    -moz-caja-sombra: 10px 10px 17px 0px rgba(0,0,0,0.75);
+
+    .grid-items{
+        p{
+            color:black;
+            background-color: rgb(223, 223, 216);
+            height: 400px;
+            width: 100%;
+            padding-top: 100px;
+            padding-left: 50px;
+            padding-right: 50px;
+            padding-bottom: 100px;
+            font-size: 20px;
+            font-style: oblique;
+            &:hover{
+                transform: scale(1.1);
+                transition-duration: 3s;
+            }
+        }
+        img{
+            width: 100%;
+            height: 400px;
+            box-shadow: 10px 10px 17px 0px rgba(0,0,0,0.75);
+            -webkit-caja-sombra: 10px 10px 17px 0px rgba(0,0,0,0.75);
+            -moz-caja-sombra: 10px 10px 17px 0px rgba(0,0,0,0.75);
+            &:hover{
+                transform: scale(1.1);
+                transition-duration: 3s;
+            }
+        }
+    }
+    .grid-items-2{
+        img{
+            width: 100%;
+            height: 400px;
+            box-shadow: 10px 10px 17px 0px rgba(0,0,0,0.75);
+            -webkit-caja-sombra: 10px 10px 17px 0px rgba(0,0,0,0.75);
+            -moz-caja-sombra: 10px 10px 17px 0px rgba(0,0,0,0.75);
+            &:hover{
+                transform: scale(1.5);
+                transition-duration: 3s;
+            }
+        }
+    }
+}

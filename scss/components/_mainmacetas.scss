@@ -1,0 +1,49 @@
+@import "../base/variables";
+/*----MAIN MACETAS----*/
+.macetas{
+    width: 100%;
+    height: 25vh;
+    background-color: rgb(223, 223, 216);
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 10px 10px 17px 0px rgba(0,0,0,0.75);
+    -webkit-caja-sombra: 10px 10px 17px 0px rgba(0,0,0,0.75);
+    -moz-caja-sombra: 10px 10px 17px 0px rgba(0,0,0,0.75);
+    h2{
+        color:black;
+        font-size: 40px;
+        font-style: oblique;
+        margin-top: 20px;
+        margin-right: 300px;
+        margin-left: 300px;
+        margin-bottom: 20px;
+        &:hover{
+            transform: scale(1.3);
+            transition-duration: 3s;
+        }
+    }
+}
+.grid-container-macetas{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 400px 400px 400px 400px 400px;
+    gap: 15px;
+    background-color: rgb(223, 223, 216);
+    margin: 5px 5px 5px 5px;
+    flex-wrap: wrap;
+    .grid-macetas{
+        box-shadow: 10px 10px 17px 0px rgba(0,0,0,0.75);
+        -webkit-caja-sombra: 10px 10px 17px 0px rgba(0,0,0,0.75);
+        -moz-caja-sombra: 10px 10px 17px 0px rgba(0,0,0,0.75);
+    }
+    div img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
