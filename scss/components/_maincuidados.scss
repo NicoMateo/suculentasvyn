@@ -5,10 +5,8 @@
     height: auto;
     background-color: $color-background-principal;
     color: $color-fuente-principal;
-    display: flex;
+    @extend %flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     padding: 5px 5px 5px 5px;
     box-shadow: 10px 10px 17px 0px rgba(0,0,0,0.75);
     -webkit-caja-sombra: 10px 10px 17px 0px rgba(0,0,0,0.75);
@@ -22,8 +20,7 @@
             font-style: italic ;
             padding-bottom: 20px;
             margin-top: 3px;
-            align-items: center;
-            text-align: center;
+            @extend %center;
         }
         p{
             color:$color-fuente-principal;
@@ -42,8 +39,7 @@
             font-style: italic ;
             padding-bottom: 20px;
             margin-top: 3px;
-            align-items: center;
-            text-align: center;
+            @extend %center;
         }
         h3{
             color:$color-fuente-principal;
@@ -53,8 +49,7 @@
             font-style: italic ;
             padding-bottom: 5px;
             margin-top: 3px;
-            align-items: center;
-            text-align: center;
+            @extend %center;
         }
         p{
             color:$color-fuente-principal;
@@ -74,8 +69,7 @@
             font-style: italic ;
             padding-bottom: 20px;
             margin-top: 3px;
-            align-items: center;
-            text-align: center;
+            @extend %center;
         }
         p{
             color:$color-fuente-principal;
@@ -93,8 +87,7 @@
             font-style: italic ;
             padding-bottom: 5px;
             margin-top: 3px;
-            align-items: center;
-            text-align: center;
+            @extend %center;
         }
     }
     .comocuidarnos-contenedor4{
@@ -106,8 +99,7 @@
             font-style: italic ;
             padding-bottom: 20px;
             margin-top: 3px;
-            align-items: center;
-            text-align: center;
+            @extend %center;
         }
         p{
             color:$color-fuente-principal;

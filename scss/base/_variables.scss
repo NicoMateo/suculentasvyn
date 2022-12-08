@@ -2,4 +2,15 @@
 $color-background-principal:rgb(223, 223, 216);
 $color-backgrouncolor-header-footer:rgb(91, 114, 91);
 $color-fuente-principal:black;
+//!EXTENDS
+%flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+%center{
+    align-items: center;
+    text-align: center;
+}
+
 
