@@ -3,8 +3,8 @@
 .comocuidarnos{
     width: 100%;
     height: auto;
-    background-color: rgb(223, 223, 216);
-    color: black;
+    background-color: $color-background-principal;
+    color: $color-fuente-principal;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -15,7 +15,7 @@
     -moz-caja-sombra: 10px 10px 17px 0px rgba(0,0,0,0.75);
     .comocuidarnos-contenedor1{
         h2{
-            color:black;
+            color:$color-fuente-principal;
             font-size: 40px;
             font-family: 'Trispace', sans-serif;
             font-weight: 500px;
@@ -26,7 +26,7 @@
             text-align: center;
         }
         p{
-            color:black;
+            color:$color-fuente-principal;
             font-size: 20px;
             font-style: oblique;
             justify-content: center;
@@ -35,7 +35,7 @@
     }
     .comocuidarnos-contenedor2{
         h2{
-            color:black;
+            color:$color-fuente-principal;
             font-size: 40px;
             font-family: 'Trispace', sans-serif;
             font-weight: 500px;
@@ -46,7 +46,7 @@
             text-align: center;
         }
         h3{
-            color:black;
+            color:$color-fuente-principal;
             font-size: 30px;
             font-family: 'Trispace', sans-serif;
             font-weight: 500px;
@@ -57,7 +57,7 @@
             text-align: center;
         }
         p{
-            color:black;
+            color:$color-fuente-principal;
             font-size: 20px;
             font-style: oblique;
             justify-content: center;
@@ -67,7 +67,7 @@
     }
     .comocuidarnos-contenedor3{
         h2{
-            color:black;
+            color:$color-fuente-principal;
             font-size: 40px;
             font-family: 'Trispace', sans-serif;
             font-weight: 500px;
@@ -78,7 +78,7 @@
             text-align: center;
         }
         p{
-            color:black;
+            color:$color-fuente-principal;
             font-size: 20px;
             font-style: oblique;
             justify-content: center;
@@ -86,7 +86,7 @@
             text-align: center;
         }
         h3{
-            color:black;
+            color:$color-fuente-principal;
             font-size: 30px;
             font-family: 'Trispace', sans-serif;
             font-weight: 500px;
@@ -99,7 +99,7 @@
     }
     .comocuidarnos-contenedor4{
         h2{
-            color:black;
+            color:$color-fuente-principal;
             font-size: 40px;
             font-family: 'Trispace', sans-serif;
             font-weight: 500px;
@@ -110,7 +110,7 @@
             text-align: center;
         }
         p{
-            color:black;
+            color:$color-fuente-principal;
             font-size: 20px;
             font-style: oblique;
             justify-content: center;

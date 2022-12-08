@@ -4,10 +4,6 @@
   padding: 0;
   box-sizing: border-box; }
 
-/*--------VARIABLES--------*/
-/*PALETA DE COLORES*/
-/*--------VARIABLES--------*/
-/*PALETA DE COLORES*/
 /*----HEADER----*/
 header .headermq {
   display: flex;
@@ -47,8 +43,6 @@ header nav ul {
       header nav ul li a:hover {
         color: #7893a7; }
 
-/*--------VARIABLES--------*/
-/*PALETA DE COLORES*/
 /*----MAIN INDEX----*/
 .hero {
   width: 100%;
@@ -137,8 +131,6 @@ header nav ul {
       transform: scale(1.5);
       transition-duration: 3s; }
 
-/*--------VARIABLES--------*/
-/*PALETA DE COLORES*/
 /*----MAIN MINI JARDINES----*/
 .minijardines {
   text-align: center;
@@ -192,8 +184,6 @@ header nav ul {
       transform: scale(1.1);
       transition-duration: 3s; }
 
-/*--------VARIABLES--------*/
-/*PALETA DE COLORES*/
 /*----MAIN MACETAS----*/
 .macetas {
   width: 100%;
@@ -238,8 +228,6 @@ header nav ul {
     height: 100%;
     object-fit: cover; }
 
-/*--------VARIABLES--------*/
-/*PALETA DE COLORES*/
 /*----MAIN CUIDADOS----*/
 .comocuidarnos {
   width: 100%;
@@ -342,8 +330,6 @@ header nav ul {
     margin: 10px;
     text-align: center; }
 
-/*--------VARIABLES--------*/
-/*PALETA DE COLORES*/
 /*----MAIN CONTACTO----*/
 .contacto {
   text-align: center;
@@ -374,8 +360,6 @@ header nav ul {
     color: black;
     font-size: 20px; }
 
-/*--------VARIABLES--------*/
-/*PALETA DE COLORES*/
 /*----FOOTER----*/
 .flex-container {
   background-color: #5b725b;

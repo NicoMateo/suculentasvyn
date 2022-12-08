@@ -5,13 +5,13 @@
     width: 100%;
     height: auto;
     background-position: center;
-    background-color: rgb(223, 223, 216);
+    background-color: $color-background-principal;
     margin-bottom: 10px;
     box-shadow: 10px 10px 17px 0px rgba(0,0,0,0.75);
     -webkit-caja-sombra: 10px 10px 17px 0px rgba(0,0,0,0.75);
     -moz-caja-sombra: 10px 10px 17px 0px rgba(0,0,0,0.75);
     h2{
-        color:black;
+        color:$color-fuente-principal;
         font-size: 35px;
         font-family: 'Trispace', sans-serif;
         font-weight:300 ;
@@ -22,7 +22,7 @@
         }
     }
     p{
-        color:black;
+        color:$color-fuente-principal;
         font-size: 20px;
         font-style: oblique;
         margin-top: 20px;
@@ -41,7 +41,7 @@
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 400px 400px 400px 400px 400px;
     gap: 15px;
-    background-color: rgb(223, 223, 216);
+    background-color: $color-background-principal;
     margin: 5px 5px 5px 5px;
     flex-wrap: wrap;
     div img{

@@ -3,7 +3,7 @@
 header{
     .headermq{
         display: flex;
-        background-color: rgb(91, 114, 91);
+        background-color: $color-backgrouncolor-header-footer;
         top: 0;
         width: 100%;
         align-items: center;
@@ -35,15 +35,14 @@ header{
                 margin: 20px;
                 a{
                     text-decoration: none;
-                    color: black;
+                    color: $color-fuente-principal;
                     font-size: 20px;
                     transition: 1s ease-in;
                     &:hover{
                         color: #7893a7;
-                        }
                     }
-
                 }
             }
         }
+    }
 }

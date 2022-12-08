@@ -3,8 +3,8 @@
 .hero{
     width: 100%;
     height: auto;
-    background-color: rgb(223, 223, 216);
-    color: black;
+    background-color: $color-background-principal;
+    color: $color-fuente-principal;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -15,7 +15,7 @@
     -webkit-caja-sombra: 10px 10px 17px 0px rgba(0,0,0,0.75);
     -moz-caja-sombra: 10px 10px 17px 0px rgba(0,0,0,0.75);
     h2{
-        color:black;
+        color:$color-fuente-principal;
         font-size: 35px;
         font-family: 'Trispace', sans-serif;
         font-weight:400;
@@ -29,7 +29,7 @@
         }   
     }
     p{
-        color:black;
+        color:$color-fuente-principal;
         font-size: 20px;
         font-style: oblique;
         margin-top: 20px;
@@ -50,7 +50,7 @@
     display: grid;
     grid-template-rows: 470px 470px 470px;
     grid-template-columns: 1fr 1fr;
-    background-color: rgb(223, 223, 216);
+    background-color: $color-background-principal;
     justify-items: center;
     align-items: center;  
     justify-content: center;
@@ -63,8 +63,8 @@
 
     .grid-items{
         p{
-            color:black;
-            background-color: rgb(223, 223, 216);
+            color:$color-fuente-principal;
+            background-color: $color-background-principal;
             height: 400px;
             width: 100%;
             padding-top: 100px;

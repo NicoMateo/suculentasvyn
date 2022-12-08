@@ -1,7 +1,7 @@
 @import "../base/variables";
 /*----FOOTER----*/
 .flex-container{
-    background-color: rgb(91, 114, 91);
+    background-color: $color-backgrouncolor-header-footer;
     position: sticky;
     top: 0;
     width: 100%;
@@ -14,7 +14,7 @@
             ul{
                 li{
                     a{
-                        color:black;
+                        color:$color-fuente-principal;
                         text-align:left;
                         text-align:initial;
                         font-size: 30px;
