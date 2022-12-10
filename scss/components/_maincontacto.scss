@@ -15,7 +15,7 @@
         font-size: 35px;
         font-family: 'Trispace', sans-serif;
         font-weight:300 ;
-        font-style: italic ;
+        font-style: $font-style-principal;
     &:hover{
         transform: scale(1.3);
         transition-duration: 3s;
@@ -26,7 +26,7 @@
         font-size: 35px;
         font-family: 'Trispace', sans-serif;
         font-weight:300 ;
-        font-style: italic ;
+        font-style: $font-style-principal;
     }
     form{
         padding-top: 10px;
