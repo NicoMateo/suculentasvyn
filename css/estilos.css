@@ -23,7 +23,7 @@
   text-align: center; }
 
 /*----HEADER----*/
-header .headermq {
+.headermq {
   display: flex;
   background-color: #5b725b;
   top: 0;
@@ -37,29 +37,27 @@ header .headermq {
   box-shadow: 10px 10px 17px 0px rgba(0, 0, 0, 0.75);
   -webkit-caja-sombra: 10px 10px 17px 0px rgba(0, 0, 0, 0.75);
   -moz-caja-sombra: 10px 10px 17px 0px rgba(0, 0, 0, 0.75); }
-
-header img {
-  width: 100px;
-  height: 100px;
-  box-shadow: 10px 10px 17px 0px rgba(0, 0, 0, 0.75);
-  -webkit-caja-sombra: 10px 10px 17px 0px rgba(0, 0, 0, 0.75);
-  -moz-caja-sombra: 10px 10px 17px 0px rgba(0, 0, 0, 0.75); }
-  header img:hover {
-    transform: scale(1.3);
-    transition-duration: 3s; }
-
-header nav ul {
-  display: flex;
-  list-style: none; }
-  header nav ul li {
-    margin: 20px; }
-    header nav ul li a {
-      text-decoration: none;
-      color: black;
-      font-size: 20px;
-      transition: 1s ease-in; }
-      header nav ul li a:hover {
-        color: #7893a7; }
+  .headermq img {
+    width: 100px;
+    height: 100px;
+    box-shadow: 10px 10px 17px 0px rgba(0, 0, 0, 0.75);
+    -webkit-caja-sombra: 10px 10px 17px 0px rgba(0, 0, 0, 0.75);
+    -moz-caja-sombra: 10px 10px 17px 0px rgba(0, 0, 0, 0.75); }
+    .headermq img:hover {
+      transform: scale(1.3);
+      transition-duration: 3s; }
+  .headermq nav ul {
+    display: flex;
+    list-style: none; }
+    .headermq nav ul li {
+      margin: 20px; }
+      .headermq nav ul li a {
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+        transition: 1s ease-in; }
+        .headermq nav ul li a:hover {
+          color: #7893a7; }
 
 .hero, .macetas, .comocuidarnos {
   display: flex;
