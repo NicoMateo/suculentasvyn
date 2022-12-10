@@ -1,28 +1,27 @@
 /*----MEDIA QUERY----*/
 
 @media screen and (max-width: 880px){
-    .hero{
-        flex-direction: column;
-        height: 90vh;
-        h2{
-            color:black;
-            font-size: 35px;
-            font-family: 'Trispace', sans-serif;
-            font-style: italic ;
-            text-align: center;
-            align-items: center;
-            align-content: center;
-            justify-content: center;
-        }
-        p{
-            color:black;
-            font-size: 20px;
-            font-style: oblique;
-            text-align: center;
-        }
-    }
-    
-    .minijardines{
+    body main section div .hero{
+                            flex-direction: column;
+                            height: 90vh;
+                                h2{
+                                color:black;
+                                font-size: 35px;
+                                font-family: 'Trispace', sans-serif;
+                                font-style: italic ;
+                                text-align: center;
+                                align-items: center;
+                                align-content: center;
+                                justify-content: center;
+                                }
+                                p{
+                                color:black;
+                                font-size: 20px;
+                                font-style: oblique;
+                                text-align: center;
+                                }
+                            }
+        .minijardines{
         height: auto;
         h2{
             width: 100%;

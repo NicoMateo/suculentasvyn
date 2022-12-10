@@ -443,10 +443,10 @@
 
 /*----MEDIA QUERY----*/
 @media screen and (max-width: 880px) {
-  .hero {
+  body main section div .hero {
     flex-direction: column;
     height: 90vh; }
-    .hero h2 {
+    body main section div .hero h2 {
       color: black;
       font-size: 35px;
       font-family: 'Trispace', sans-serif;
@@ -455,7 +455,7 @@
       align-items: center;
       align-content: center;
       justify-content: center; }
-    .hero p {
+    body main section div .hero p {
       color: black;
       font-size: 20px;
       font-style: oblique;
