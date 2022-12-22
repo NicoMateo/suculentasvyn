@@ -463,12 +463,14 @@
   .minijardines {
     height: auto; }
     .minijardines h2 {
-      width: 90%;
+      width: 100%;
       text-align: center;
       justify-content: center;
-      padding: 0; }
-    .minijardines p {
+      padding: 0;
       margin: 0; }
+    .minijardines p {
+      margin: 0;
+      padding: 0; }
   .grid-container-grilla-imagenes {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto; }
